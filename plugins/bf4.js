@@ -1,0 +1,32 @@
+let fetch = require('node-fetch')
+//plugin by Cristian
+
+let handler  = async (m, { conn, text }) => {
+//let text = args.join` `
+let [to, samu] = text.split`|`
+if (!to) throw `Formato incorrecto`
+if (!samu) throw `Ejemplo *.bf4 Sexy|25*`
+
+if (!text) return conn.reply(m.chat, 'No hay texto para crear logo', m)
+let url = 'https://videfikri.com/api/textmaker/bf4/?text1=' + `${to}` + '&text2=' + `${samu}`
+
+conn.sendFile(m.chat, url, '', '✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨', m)
+
+}
+handler.help = ['bf4 _text|texto_']
+handler.tags = ['images']
+handler.command = /^bf4?$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = true
+handler.private = false
+handler.register = true
+handler.limit = true
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+
+module.exports = handler
