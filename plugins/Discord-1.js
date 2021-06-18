@@ -4,8 +4,8 @@ let handler = async m => m.reply(`
 ╰───❲ *Discord ➣CLAN:嵐-ABDHILL-嵐* ❳──╯
 `.trim())
 
-handler.customPrefix = New RegExp
-handler.command = /^(pasa discord)$/i
+handler.customPrefix = /^(.discord)$/i
+handler.command = New RegExp
 handler.group = true
 
 module.exports = handler
