@@ -1,6 +1,6 @@
 let handler = m => m
 
-let linkRegex =  /mamaverga/i
+let linkRegex =  /verga/i
 handler.before = function (m, { user, bot, groupMetadata }) {
   if (m.isBaileys && m.fromMe) return true
   let chat = global.DATABASE.data.chats[m.chat]
