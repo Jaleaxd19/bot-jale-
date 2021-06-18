@@ -12,7 +12,7 @@ handler.before = function (m, { user, bot, groupMetadata }) {
     m.reply('*3!!*')
     m.reply('*2!!*')
     m.reply('*1!!*')
-if (user.isAdmin || user.isSuperAdmin) return m.reply('*Te salvaste cagón eres admin, no puedo eliminarte ptm :v*')
+if (user.isAdmin || user.isSuperAdmin) return m.reply('*Te salvaste cagón eres admin😒, no puedo eliminarte ptm :v*')
     let participants = m.isGroup ? groupMetadata.participants : []
     let bot = m.isGroup ? participants.find(u => u.jid == this.user.jid) : {}
     if (bot.isAdmin || bot.isSuperAdmin) {
