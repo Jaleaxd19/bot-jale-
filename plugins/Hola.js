@@ -1,6 +1,6 @@
-let handler = m => m.reply('*Hola👋 que tal como va tu dia ??* , *Que tengas un exelente dia,tarde o noche... y si vas a dormir descansa mañana es un nuevo inicio🌚*')
+let handler = m => m.reply('*Hola👋 soy bot sexy 🌚??* , *En que te puedo ayudar¿?*_Escribe_ *#help* o *#Menú* _para que puedas ver mis funciones_ .*')
 
-handler.customPrefix = /hola|Hola|holaa/i
+handler.customPrefix = /Hola|Hola|Hola/i
 handler.command = new RegExp
 handler.private = false
 handler.group = true
