@@ -1,4 +1,4 @@
-let handler = m => m.reply('_*Buen dia.*👋☺️😘_,_✨Te deseo un excelente inicio de dia✨_')
+let handler = m => m.reply('*Buen dia.*👋☺️😘,_✨Te deseo un excelente inicio de dia✨_')
 
 handler.customPrefix = /Buen días|buenos dias/i
 handler.command = new RegExp
