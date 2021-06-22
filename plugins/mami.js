@@ -9,7 +9,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
   .then(batch => {
     conn.updatePresence(m.chat, Presence.composing)
   conn.reply(m.chat, `${batch.success}`, m)
-  }) .catch(() => { conn.reply(m.chat, `_¡La función arrow está desabilitada!_`, m) })
+  }) .catch(() => { conn.reply(m.chat, `_¡La función mami está desabilitada!_`, m) })
 }
 handler.help = ['mami'].map(v => v + ' *texto*')
 handler.tags = ['fun']
