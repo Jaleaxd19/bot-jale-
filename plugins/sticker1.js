@@ -3,7 +3,7 @@ const { sticker } = require('../lib/sticker')
 let handler  = async (m, { conn, args }) => {
   let stiker = false 
   {
-    await m.reply('✨*Tu stiker está en progreso...*✨')
+    await m.reply('✨ *Tu stiker está en progreso...* ✨')
     }
   try {
     let q = m.quoted ? m.quoted : m
