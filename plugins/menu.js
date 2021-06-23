@@ -4,6 +4,7 @@ let levelling = require('../lib/levelling')
 let tags = {
 let =conn
 conn.fakeReply(m.chat,  '*ESPERA 🛸*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
+{
   'main': 'Main',
   'game': 'Game',
   'xp': 'Exp & Limit',
