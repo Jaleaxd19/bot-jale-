@@ -2,6 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
 let tags = {
+let =conn.fakeReply(m.chat,  '*ESPERA 🛸*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
   'main': 'Main',
   'game': 'Game',
   'xp': 'Exp & Limit',
