@@ -8,7 +8,7 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!name) throw 'Los nombres no pueden estar vacíos (alfanumérico)'
   if (!age) throw 'La edad no puede estar en blanco (números)'
   age = parseInt(age)
-  if (age > 120) throw 'Edad demasiado vieja 😂'
+  if (age > 90) throw 'Edad demasiado vieja 😂'
   if (age < 5) throw 'Los bebés pueden escribir según el formato bjir ._.'
   user.name = name.trim()
   user.age = age
@@ -19,9 +19,9 @@ let handler = async function (m, { text, usedPrefix }) {
 *REGISTRO EXITOSO* ✅
 
 ┯┷ *〈 INFO 〉*
-┠≽ *Nombre:* ${name}
-┠≽ *Edad:* ${age} años
-┠≽ *SN:* ${sn}
+┠≽ *Nombre🔥:* ${name}
+┠≽ *Edad🔥:* ${age} años
+┠≽ *SN🔥:* ${sn}
 ┷┯
 `.trim())
 }
