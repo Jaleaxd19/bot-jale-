@@ -38,8 +38,8 @@ const defaultMenu = {
    ┠≽ Fecha🗓️: *%week, %date*
    ┠≽ Hora⌚: *%time*
    ┠
-   ┠≽ Tiempo activo: *%uptime*
-   ┠≽ Base de datos: %rtotalreg de %totalreg
+   ┠≽ Tiempo activo ♨️: *%uptime*
+   ┠≽ Base de datos 🗃️: %rtotalreg de %totalreg
    ╿
   %readmore`.trimStart(),
   header: '┯┷ 〈 %category 〉',
@@ -51,7 +51,7 @@ ${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
-  conn.fakeReply(m.chat,  '*ESPERA 🧞‍♀️👿*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
+  conn.fakeReply(m.chat,  '*ESPERA 👿*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
   conn.sendFile(m.chat, 'media/menu.opus', m)
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
