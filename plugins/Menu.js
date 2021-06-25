@@ -2,7 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
 let tags = {
-  '*Menu*': '*Menu*',
+  '*menu*': '*Menu*',
   'game': 'Game',
   'xp': 'Exp & Limit',
   'sticker': 'Sticker',
