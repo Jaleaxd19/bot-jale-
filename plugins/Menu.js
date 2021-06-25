@@ -28,15 +28,15 @@ const defaultMenu = {
   before: `
 ┏ 〈 %me 〉
 ┠
-┷┯ Hola, %name!
+┷┯ Hola👋, %name!
    ╽
-   ┠≽ Restante: *%limit Limite*
-   ┠≽ Nivel: *%level (%exp / %maxexp)* 
+   ┠≽ Limites🔮: *%limit Limite*
+   ┠≽ Nivel🎚️: *%level (%exp / %maxexp)* 
    ┠≽ [%xp4levelup para subir de nivel]
    ┠≽ %totalexp XP en Total
    ┠ 
-   ┠≽ Fecha: *%week, %date*
-   ┠≽ Hora: *%time*
+   ┠≽ Fecha🗓️: *%week, %date*
+   ┠≽ Hora⌚: *%time*
    ┠
    ┠≽ Tiempo activo: *%uptime*
    ┠≽ Base de datos: %rtotalreg de %totalreg
