@@ -51,7 +51,7 @@ ${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
-  conn.fakeReply(m.chat,  '*ESPERA 🛸*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
+  conn.fakeReply(m.chat,  '*ESPERA 🧞‍♀️👿*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
   conn.sendFile(m.chat, 'media/menu.opus', m)
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
