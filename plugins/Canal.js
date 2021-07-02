@@ -14,11 +14,11 @@ https://instagram.com/abd_hill666/
 
 https://youtube.com/channel/UClDujRkM1VL92uhhUGcDwRQ
 
-╰────❲ *✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚* ❳────╯
+╰────❲ *✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨* ❳────╯
 
 `.trim())
 
-handler.customPrefix = /#discord|#discord|#discord|#discord/i
+handler.customPrefix = /#canal|#canal|#canal|#canal/i
 
 handler.command = new RegExp
 
