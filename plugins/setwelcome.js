@@ -5,6 +5,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
     else global.DATABASE._data.chats.sWelcome = text
     m.reply('La bienvenida se configuró correctamente\n@user (Mention)\n@subject (Título del grupo)')
   } else throw 'Donde esta el texto?'
+conn.sendFile(m.chat, 'media/Beso.mp3', '', 'xd', m)
 }
 handler.help = ['setwelcome <teks>']
 handler.tags = ['owner', 'group']
