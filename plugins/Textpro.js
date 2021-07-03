@@ -12,6 +12,7 @@ let handler = async (m, { conn, args: [effect], usedPrefix, text: txt }) => {
   if(!text) throw `Formato Incorrecto\n\nEjemplo:\n*${usedPrefix}neon sexy*\n*${usedPrefix}marvel sexy|bot*`
   conn.fakeReply(m.chat, '*ESPERA ⏳*', '0@s.whatsapp.net', '✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨')
   await conn.sendFile(m.chat, url, 'textpro.jpg', `✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨\n\n*Efecto:* ${effect}`, m)
+  .catch(() => { conn.reply(m.chat, `_Error! Formato incorrecto o inténtalo más tarde_`, m) })
 }
 handler.help = ['textpro'].map(v => v + ' *(efecto)* *texto|texto2*')
 handler.tags = ['tools']
