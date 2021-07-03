@@ -4,11 +4,11 @@ let handler  = async (m, { conn }) => {
 
 }
 
-handler.help = ['be']
+handler.help = ['Que']
 
 handler.tags = ['premium']
 
-handler.command = /^(be)$/i
+handler.command = /^(Que)$/i
 
 handler.group = true
 
