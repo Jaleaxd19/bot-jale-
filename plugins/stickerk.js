@@ -9,8 +9,8 @@ let handler  = async (m, { conn, args }) => {
       let img = await q.download()
       if (!img) throw 'Foto/Video tidak ditemukan'
 conn.fakeReply(m.chat,  '*ESPERA ⌛*', '0@s.whatsapp.net', '*✨bot-sexy✨*')
-      stiker = await sticker(img, false, global.packname, global.author)
-    } else if (args[0]) stiker = await sticker(false, args[0], global.packname, global.author)
+      stiker = await sticker(img, true, global.packname, global.author)
+    } else if (args[0]) stiker = await sticker(true, args[0], global.packname, global.author)
   } finally {
     if (stiker) conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
