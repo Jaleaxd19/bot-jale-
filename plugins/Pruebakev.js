@@ -2,7 +2,7 @@ let { Presence, GroupSettingChange } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, args, usedPrefix, command }) => {
 
-	let isClose = { // Switch Case Like :v		'abierto': false,
+	let isClose = { // Switch Case Like :v		'abierto': true,
 
 		'cerrado': true,
 
