@@ -10,7 +10,7 @@ handler.tags = ['premium']
 
 handler.command = /^(ami)$/i
 
-handler.owner = false
+handler.owner = true
 
 handler.mods = false
 
