@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
   }), 'gay.png', 'Quiero ser gay, alguien de aqui quiere violarme y llenarme de leche?', m)
 }
 
-handler.customPrefix = /^(gay)$/i
+handler.customPrefix = /gay|gey|gai/i
 handler.command = new RegExp
 handler.private = false
 handler.group = true
