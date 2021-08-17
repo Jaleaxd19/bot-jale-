@@ -18,7 +18,7 @@ https://youtube.com/channel/UClDujRkM1VL92uhhUGcDwRQ
 
 `.trim())
 
-handler.customPrefix = /#canal|#canal|#canal|#canal/i
+handler.customPrefix = /^(#abdcanal)$/i
 
 handler.command = new RegExp
 
