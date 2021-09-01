@@ -9,9 +9,9 @@ let handler = async (m, { conn, args: [effect], usedPrefix, text: txt }) => {
   let [text, ...text2] = txt.replace(effect, '').trimStart().split(split)
   text2 = text2.join(split)
   let url = global.API('xteam', '/textpro/' + effect, { text, text2 }, 'APIKEY')
-  if(!text) throw `Formato Incorrecto\n\nEjemplo:\n*${usedPrefix}neon sexy*\n*${usedPrefix}marvel sexy|bot*`
-  conn.fakeReply(m.chat, '*ESPERA ⏳*', '0@s.whatsapp.net', '✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨')
-  await conn.sendFile(m.chat, url, 'textpro.jpg', `✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨\n\n*Efecto:* ${effect}`, m)
+  if(!text) throw `Formato Incorrecto\n\nEjemplo:\n*${usedPrefix}neon sexy*\n*${usedPrefix}marvel jalea|bot*`
+  conn.fakeReply(m.chat, '*ESPERA ⏳*', '0@s.whatsapp.net', '✨𝒃𝒐𝒕-𝒋𝒂𝒍𝒆𝒂✨')
+  await conn.sendFile(m.chat, url, 'textpro.jpg', `✨𝒃𝒐𝒕-𝒋𝒂𝒍𝒆𝒂✨\n\n*Efecto:* ${effect}`, m)
   .catch(() => { conn.reply(m.chat, `_Error! Formato incorrecto o inténtalo más tarde_`, m) })
 }
 handler.help = ['textpro'].map(v => v + ' *(efecto)* *texto|texto2*')
