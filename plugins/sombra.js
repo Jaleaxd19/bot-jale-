@@ -8,7 +8,7 @@ if (!text) return conn.reply(m.chat, 'No hay texto para crear logo', m)
 //if (text) return conn.reply(m.chat, '⌛ *EN PROCESO* ⌛', m)
 let url = 'https://videfikri.com/api/textmaker/shadowtext/?text=' + encodeURIComponent(text)
 
-conn.sendFile(m.chat, url, '', '✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨', m)
+conn.sendFile(m.chat, url, '', '✨𝒃𝒐𝒕-𝒋𝒂𝒍𝒆𝒂✨', m)
 
 }
 handler.help = ['sombra']
