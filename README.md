@@ -1,4 +1,4 @@
-# bot-sexy
+# bot-jalea
 
 Simple WhatsApp Bot
 
