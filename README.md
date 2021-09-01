@@ -10,8 +10,8 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/kevinsit0/bot-sexy
-> cd bot-sexy
+> https://github.com/Jaleaxd19/bot-jale-.git
+> cd bot-jale-
 > npm install
 ```
 
@@ -25,8 +25,8 @@ Simple WhatsApp Bot
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```bash
-> git clone https://github.com/kevinsit0/bot-sexy
-> cd bot-sexy
+> https://github.com/Jaleaxd19/bot-jale-.git
+> cd bot-jale-
 > npm install
 ```
 
@@ -95,4 +95,4 @@ conn.logger.level = 'debug'
 
 #### Author / Creator : [`Nurutomo`](https://github.com/Nurutomo)
 
-#### Moddified : [`Kevin`](https://github.com/kevinsit0/)
+#### Moddified : [`Nita`](https://github.com/Jaleaxd19/)
