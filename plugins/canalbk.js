@@ -5,7 +5,7 @@ https://discord.gg/KWQRdgytCA
 ├┉┉┉┉↯❏  *Instagram del clan:* ❏↯┉┉┉┉
 https://instagram.com/blood.killers19?utm_medium=copy_link
 
-╰────❲ *✨𝐛𝐨𝐭-𝒔𝒆𝒙𝒚✨* ❳────╯
+╰────❲ *✨𝒃𝒐𝒕-𝒋𝒂𝒍𝒆𝒂✨* ❳────╯
 `.trim())
 
 handler.customPrefix = /#bkcanal|#bkcanal|#bkcanal|#bkcanal/i
