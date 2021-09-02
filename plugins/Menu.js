@@ -151,7 +151,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendFile(m.chat, 'media/menu.jpg', '', text.trim(), m)
+    conn.sendFile(m.chat, 'media/Menuu.jpg', '', text.trim(), m)
   } catch (e) {
     conn.reply(m.chat, 'Lo siento, el menú tiene un error', m)
     throw e
