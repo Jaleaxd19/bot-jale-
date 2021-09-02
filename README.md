@@ -10,7 +10,7 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> https://github.com/Jaleaxd19/bot-jale-.git
+> git clone https://github.com/Jaleaxd19/bot-jale-.git
 > cd bot-jale-
 > npm install
 ```
