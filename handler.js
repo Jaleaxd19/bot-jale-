@@ -365,15 +365,15 @@ Para desactivar esta función, escriba
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Este comando solo puede ser utilizado por _*Kevin*_ ',
-    owner: 'Este comando solo puede ser utilizado por _*bot-sexy*_ !',
-    mods: 'Este comando solo puede ser utilizado por _*Moderator*_ !',
+    rowner: 'Este comando solo puede ser utilizado por _*Nita*_ ',
+    owner: 'Este comando solo puede ser utilizado por _*bot-jalea*_ !',
+    mods: 'Este comando solo puede ser utilizado por _*Nita*_ !',
     premium: 'Este comando es solo para miembros _*Premium*_ !',
     group: 'Este comando solo se puede usar en grupos!',
     private: 'Este comando solo se puede usar en chats privados!',
     admin: 'Este comando es solo para *Admin* del grupo!',
     botAdmin: 'Haga del bot un *Admin* para usar este comando!',
-    unreg: 'Regístrese para utilizar esta función, escribiendo:\n\n*.reg nombre.edad*\n\nEjemplo: *.reg Sexy.25*'
+    unreg: 'Regístrese para utilizar esta función, escribiendo:\n\n*.reg nombre.edad*\n\nEjemplo: *.reg Jalea.15*'
   }[type]
   if (msg) return m.reply(msg)
 }
